@@ -15,8 +15,8 @@ from trustcall import create_extractor
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
-from langgraph_chatbot.models import UserProfile
-from langgraph_chatbot.prompts import MODEL_SYSTEM_MESSAGE, TRUSTCALL_INSTRUCTION, WELCOME_SYSTEM_MESSAGE
+from .models import UserProfile
+from .prompts import MODEL_SYSTEM_MESSAGE, TRUSTCALL_INSTRUCTION, WELCOME_SYSTEM_MESSAGE
 
 
 load_dotenv()

@@ -8,7 +8,6 @@ setup(
     version="1.0.0",
     description="A reusable LangGraph chatbot module with memory management",
     author="gokul",
-    author_email="gokul@example.com",
     url="https://github.com/gokul-gituser/langgraph-chatbot.git",
     packages=find_packages(),
     install_requires=required,
